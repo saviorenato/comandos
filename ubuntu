@@ -13,3 +13,8 @@ verificar dados arquivo: wc 'arquivo'
 permissões de pasta: chmod -R 775 'pasta'  
 
 permissões de propriedade: chown -R www-data:www-data 'pasta'
+
+
+-- Remover versâo antiga php
+sudo apt-get purge php5 php5-cli libapache2-mod-php5 php5-mysql phpmyadmin
+sudo rm -rf /etc/php5
