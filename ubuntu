@@ -1,0 +1,15 @@
+##UNIX
+
+cópia: cp -r 'local' 'destino'
+
+remover arquivo: rm 'caminho/arquivo'
+
+remover pasta: rm -rf 'caminho/pasta'
+
+criar pasta: mkdir 'caminho/nome_da_pasta'
+
+verificar dados arquivo: wc 'arquivo'
+
+permissões de pasta: chmod -R 775 'pasta'  
+
+permissões de propriedade: chown -R www-data:www-data 'pasta'
