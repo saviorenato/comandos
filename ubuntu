@@ -1,20 +1,34 @@
-##UNIX
+## UNIX
 
-cópia: cp -r 'local' 'destino'
+Copiar
 
-remover arquivo: rm 'caminho/arquivo'
+    $ cp -r 'local' 'destino'
 
-remover pasta: rm -rf 'caminho/pasta'
+Remover Arquivo
 
-criar pasta: mkdir 'caminho/nome_da_pasta'
+    $ rm 'caminho/arquivo'
 
-verificar dados arquivo: wc 'arquivo'
+Remover Pasta 
 
-permissões de pasta: chmod -R 775 'pasta'  
+    $ rm -rf 'caminho/pasta'
 
-permissões de propriedade: chown -R www-data:www-data 'pasta'
+Criar Pasta
 
+    $ mkdir 'caminho/nome_da_pasta'
 
--- Remover versâo antiga php
-sudo apt-get purge php5 php5-cli libapache2-mod-php5 php5-mysql phpmyadmin
-sudo rm -rf /etc/php5
+Verificar Dados Arquivo
+
+    $ wc 'arquivo'
+
+Permissões de Pasta 
+
+    $ chmod -R 775 'pasta'  
+
+Permissões de Propriedade
+
+    $chown -R www-data:www-data 'pasta'
+
+Remover Versões Antigas do PHP
+    
+    $ sudo apt-get purge php5 php5-cli libapache2-mod-php5 php5-mysql phpmyadmin
+    $ sudo rm -rf /etc/php5
