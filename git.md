@@ -119,3 +119,8 @@ Outros comandos para stash
     $ git stash pop
     //tira da lista, aplica e apaga o stash
     $ git stash drop stash{0}
+    
+##Permissões    
+	$ git config credential.helper store
+	$ git config core.filemode false
+	$ git pull
