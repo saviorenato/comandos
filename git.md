@@ -121,6 +121,7 @@ Outros comandos para stash
     $ git stash drop stash{0}
     
 ##Permissões    
+
 	$ git config credential.helper store
 	
 	$ git config core.filemode false
