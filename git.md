@@ -122,5 +122,7 @@ Outros comandos para stash
     
 ##Permissões    
 	$ git config credential.helper store
+	
 	$ git config core.filemode false
+	
 	$ git pull
