@@ -120,6 +120,13 @@ Outros comandos para stash
     //tira da lista, aplica e apaga o stash
     $ git stash drop stash{0}
     
+Desfazer Commit
+
+    $ git reset --hard 'xxxxx'
+    $ git clean -f -d
+    $ git push -f
+    
+    
 ##Permissões    
 
 	$ git config credential.helper store
