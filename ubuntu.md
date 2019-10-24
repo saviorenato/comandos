@@ -34,6 +34,7 @@ Remover Versões Antigas do PHP
     $ sudo rm -rf /etc/php5
     
 Terminator
+
     $sudo add-apt-repository ppa:gnome-terminator
     $sudo apt-get update
     $sudo apt-get install terminator
